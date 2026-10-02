@@ -1,16 +1,62 @@
-# React + Vite
+# TaskFlow – Task Management System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## About the Project
 
-Currently, two official plugins are available:
+TaskFlow is a simple task management web application developed to help users organize, manage, and track their daily tasks.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Technologies Used
 
-## React Compiler
+* React.js
+* Vite
+* CSS
+* JavaScript
+* Local Storage
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Modules
 
-## Expanding the ESLint configuration
+### 1. User Module
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* User Signup and Login
+* Create new tasks
+* Edit and delete tasks
+* Update task status
+* View personal task details
+
+### 2. Admin Module
+
+* Admin Login
+* View all tasks
+* View task owner details
+* Manage registered users
+
+## Key Features
+
+* User authentication with form validation
+* Task creation, editing, and deletion
+* Task status tracking: To Do, In Progress, and Completed
+* Dashboard with task statistics
+* Data persistence using Local Storage
+* Responsive user interface
+
+## Design Thinking
+
+* **Empathize:** Understand the difficulties users face when organizing tasks.
+* **Define:** Identify the need for a simple task management system.
+* **Ideate:** Plan features such as task tracking, user roles, and a dashboard.
+* **Prototype:** Build the interface using React and CSS.
+* **Test:** Check login, signup, task operations, and dashboard updates.
+
+## Learning Outcomes
+
+This project helped us understand React components, frontend development, form validation, Local Storage, and user interface design.
+
+## Future Enhancements
+
+* Backend database integration
+* Secure authentication
+* Task deadlines and reminders
+* Team collaboration features
+
+## Note
+
+This is an academic demonstration project. Authentication and role management use browser Local Storage and are not intended for production security.
